@@ -7,4 +7,4 @@ remainder = number - thousands * 1000 - hundreds * 100 - tens * 10
 
 amount = thousands + hundreds + tens + remainder
 
-print(f"Сумма цифра числа {number} равна {amount}")
+print(f"Сумма цифр числа {number} равна {amount}")
