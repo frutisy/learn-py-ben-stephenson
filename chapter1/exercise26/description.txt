@@ -1,0 +1,11 @@
+Модуль time в Python включает в себя несколько очень полезных функций для
+работы со временем. Одна из таких функций – asctime – считывает текущее
+системное время компьютера и возвращает его в удобном для восприятия виде.
+Используйте эту функцию для отображения на экране текущей даты и времени.
+Никакого ввода от пользователя на этот раз вам не потребуется.
+
+
+The time module in Python includes some very useful functions for working with
+time. One of these functions, asctime, reads the current system time and
+returns it in an easy-to-read form. Use this function to display the current
+date and time on the screen. No user input is required at this time.
