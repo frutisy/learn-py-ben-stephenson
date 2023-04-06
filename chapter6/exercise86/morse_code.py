@@ -1,6 +1,7 @@
-from string import ascii_uppercase
+from string import ascii_uppercase, digits
 
-symbols = ascii_uppercase + '0123456789'
+
+symbols = ascii_uppercase + digits
 codes = ('.–', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..',
          '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.',
          '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..', '-----',
@@ -16,7 +17,8 @@ def convert_string_to_morse_code(text: str) -> str:
     Преобразует переданную строку в последовательность точек и тире,
     вставляя пробелы между отдельными словами.
 
-    Символы, которые не находятся в словаре MORSE_CODE будут игнорироваться."""
+    Символы, которые не находятся в словаре MORSE_CODE будут игнорироваться.
+    """
     morse_string = ''
 
     for symbol in text.upper():
