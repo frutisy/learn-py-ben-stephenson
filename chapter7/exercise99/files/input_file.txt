@@ -1,0 +1,4 @@
+One of the most popular programming langUAGes is Python. Python uses an
+interpreter. An InterPREter is a computer program that converts each high-level
+program statement into machine code. This includes source code, precompiled
+code, and scripts.
